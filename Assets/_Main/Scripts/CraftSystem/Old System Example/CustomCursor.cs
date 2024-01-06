@@ -1,0 +1,19 @@
+﻿using System;
+using UnityEngine;
+ 
+namespace _Main.Scripts.CraftSystem
+{
+    public class CustomCursor : MonoBehaviour
+    {
+        private void Awake()
+        {
+            transform.position = Input.mousePosition;
+            
+        }
+
+        private void Update()
+        {
+            transform.position = Input.mousePosition;
+        }
+    }
+} 
